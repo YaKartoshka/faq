@@ -1,0 +1,61 @@
+.faq_block {
+    width: 90%;
+    margin: 0 auto;
+
+
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    font: 16px/1.5 "Poppins", "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+}
+.faq_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq_block h1 {
+    text-align: center;
+    color: #3333CC;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.faq_item {
+    margin: 5px 0;
+    width: 80%;
+    display: flex;
+    background-color: #3333CC;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.faq_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rotate-icon{
+    transform: rotate(45deg);
+}
+.faq_question h3{
+    margin: 0;
+}
+.icon_btn{
+    transition: 0.5s;
+}
+.plus-icon {
+    fill: white;
+    transition: 0.2s;
+}
+
+.plus-icon:hover{
+    fill: rgb(171, 195, 251);
+    transform: scale(1.03);
+}
